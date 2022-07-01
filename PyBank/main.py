@@ -55,7 +55,7 @@ output = (
     f"\nFinancial Analysis \n"
     f"-------------------------------------------------------------------------\n"
     f"Total Months:\t\t\t\t\t\t{totalmonths}"
-    f"\nTotal:\t\t\t\t\t\t\t${TotalProf_Loss}"
+    f"\nTotal:\t\t\t\t\t\t\t\t${TotalProf_Loss}"
     f"\nAverage Change:\t\t\t\t\t\t${averageprofitchange:,.2f}"
     f"\nGreatest Increase in Profits:\t\t{greatestprofitgain[0]} ${greatestprofitgain[1]:,.2f}"
     f"\nGreatest Decrease in Profits:\t\t{greatestprofitloss[0]} ${greatestprofitloss[1]:,.2f}"
