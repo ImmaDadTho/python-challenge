@@ -10,7 +10,7 @@ this will show the results of the anaylsis and labels the file `PyBank.txt`
 This script analyzes the CSV file in Resources folder and calculates the 
 following:
 
-- ***The total number of months included int the dataset***
+- ***The total number of months included in the dataset***
 - ***The net total amount of profit and losses over the entire period***
 - ***The average change in profit through that period***
 - ***The greatest increase in profit and the month it occured***
