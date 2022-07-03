@@ -1,4 +1,4 @@
-#PyBank Analysis
+# PyBank Analysis
 
 In this Directory I have included a file called `main.py` that has the script
 I created to run an analysis on the financial records of a company. I have also
