@@ -52,13 +52,14 @@ for g in range(len(MonthlyChanges)):
         greatestprofitloss[0] = months[g]
 # make the output 
 output = ( 
-    f"\nFinancial Analysis \n"
-    f"-------------------------------------------------------------------------\n"
-    f"Total Months:\t\t\t\t\t\t{totalmonths}"
-    f"\nTotal:\t\t\t\t\t\t\t\t${TotalProf_Loss}"
-    f"\nAverage Change:\t\t\t\t\t\t${averageprofitchange:,.2f}"
-    f"\nGreatest Increase in Profits:\t\t{greatestprofitgain[0]} ${greatestprofitgain[1]:,.2f}"
-    f"\nGreatest Decrease in Profits:\t\t{greatestprofitloss[0]} ${greatestprofitloss[1]:,.2f}"
+    f"------------------------------------------------\n"
+    f"\t\tFinancial Analysis \n"
+    f"------------------------------------------------\n"
+    f"Total Months:\n\t{totalmonths}"
+    f"\nTotal:\n\t${TotalProf_Loss:,.2f}"
+    f"\nAverage Change:\n\t${averageprofitchange:,.2f}"
+    f"\nGreatest Increase in Profits:\n\tMonth: {greatestprofitgain[0]}\n\tAmount: ${greatestprofitgain[1]:,.2f}"
+    f"\nGreatest Decrease in Profits:\n\tMonth: {greatestprofitloss[0]}\n\tAmount: ${greatestprofitloss[1]:,.2f}"
 )
 #returns output information
 print(output) 
